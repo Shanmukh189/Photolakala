@@ -1,0 +1,27 @@
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.result-card {
+  overflow: hidden;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.result-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: #eee;
+}
+
+.result-card p {
+  padding: 10px;
+  margin: 0;
+  overflow-wrap: anywhere;
+}

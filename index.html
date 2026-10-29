@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>PhotoLakala</title>
+
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>PhotoLakala</h1>
+
+    <form id="search-form">
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Search images..."
+        aria-label="Search images"
+        required
+      />
+
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <p id="status" role="status" aria-live="polite"></p>
+    <section id="results" aria-label="Image search results"></section>
+  </main>
+
+  <!-- Connect JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
